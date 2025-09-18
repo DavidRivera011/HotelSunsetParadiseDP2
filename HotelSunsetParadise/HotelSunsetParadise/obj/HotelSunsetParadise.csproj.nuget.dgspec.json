@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\INTEL\\Desktop\\HotelSunsetParadise\\HotelSunsetParadise\\HotelSunsetParadise.csproj": {}
+    "C:\\GitHub\\HotelSunsetParadiseDP2\\HotelSunsetParadise\\HotelSunsetParadise\\HotelSunsetParadise.csproj": {}
   },
   "projects": {
-    "C:\\Users\\INTEL\\Desktop\\HotelSunsetParadise\\HotelSunsetParadise\\HotelSunsetParadise.csproj": {
+    "C:\\GitHub\\HotelSunsetParadiseDP2\\HotelSunsetParadise\\HotelSunsetParadise\\HotelSunsetParadise.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\INTEL\\Desktop\\HotelSunsetParadise\\HotelSunsetParadise\\HotelSunsetParadise.csproj",
+        "projectUniqueName": "C:\\GitHub\\HotelSunsetParadiseDP2\\HotelSunsetParadise\\HotelSunsetParadise\\HotelSunsetParadise.csproj",
         "projectName": "HotelSunsetParadise",
-        "projectPath": "C:\\Users\\INTEL\\Desktop\\HotelSunsetParadise\\HotelSunsetParadise\\HotelSunsetParadise.csproj",
+        "projectPath": "C:\\GitHub\\HotelSunsetParadiseDP2\\HotelSunsetParadise\\HotelSunsetParadise\\HotelSunsetParadise.csproj",
         "packagesPath": "C:\\Users\\INTEL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\INTEL\\Desktop\\HotelSunsetParadise\\HotelSunsetParadise\\obj\\",
+        "outputPath": "C:\\GitHub\\HotelSunsetParadiseDP2\\HotelSunsetParadise\\HotelSunsetParadise\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

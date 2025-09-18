@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\HotelSunsetParadise\\",
+  "WorkspaceRootPath": "C:\\Users\\INTEL\\Desktop\\HotelSunsetParadise\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{803520ED-204F-4F63-A242-7B9569212E91}|HotelSunsetParadise\\HotelSunsetParadise.csproj|d:\\hotelsunsetparadise\\hotelsunsetparadise\\views\\opciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{803520ED-204F-4F63-A242-7B9569212E91}|HotelSunsetParadise\\HotelSunsetParadise.csproj|c:\\users\\intel\\desktop\\hotelsunsetparadise\\hotelsunsetparadise\\views\\opciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{803520ED-204F-4F63-A242-7B9569212E91}|HotelSunsetParadise\\HotelSunsetParadise.csproj|solutionrelative:hotelsunsetparadise\\views\\opciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{803520ED-204F-4F63-A242-7B9569212E91}|HotelSunsetParadise\\HotelSunsetParadise.csproj|d:\\hotelsunsetparadise\\hotelsunsetparadise\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{803520ED-204F-4F63-A242-7B9569212E91}|HotelSunsetParadise\\HotelSunsetParadise.csproj|c:\\users\\intel\\desktop\\hotelsunsetparadise\\hotelsunsetparadise\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{803520ED-204F-4F63-A242-7B9569212E91}|HotelSunsetParadise\\HotelSunsetParadise.csproj|solutionrelative:hotelsunsetparadise\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{803520ED-204F-4F63-A242-7B9569212E91}|HotelSunsetParadise\\HotelSunsetParadise.csproj|d:\\hotelsunsetparadise\\hotelsunsetparadise\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{803520ED-204F-4F63-A242-7B9569212E91}|HotelSunsetParadise\\HotelSunsetParadise.csproj|c:\\users\\intel\\desktop\\hotelsunsetparadise\\hotelsunsetparadise\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{803520ED-204F-4F63-A242-7B9569212E91}|HotelSunsetParadise\\HotelSunsetParadise.csproj|solutionrelative:hotelsunsetparadise\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -22,12 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 173,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -40,22 +36,21 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\HotelSunsetParadise\\HotelSunsetParadise\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\INTEL\\Desktop\\HotelSunsetParadise\\HotelSunsetParadise\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "HotelSunsetParadise\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\HotelSunsetParadise\\HotelSunsetParadise\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\INTEL\\Desktop\\HotelSunsetParadise\\HotelSunsetParadise\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "HotelSunsetParadise\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-18T18:54:54.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T18:54:54.72Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\HotelSunsetParadise\\HotelSunsetParadise\\Views\\Opciones\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\INTEL\\Desktop\\HotelSunsetParadise\\HotelSunsetParadise\\Views\\Opciones\\Index.cshtml",
               "RelativeDocumentMoniker": "HotelSunsetParadise\\Views\\Opciones\\Index.cshtml",
-              "ToolTip": "D:\\HotelSunsetParadise\\HotelSunsetParadise\\Views\\Opciones\\Index.cshtml",
+              "ToolTip": "C:\\Users\\INTEL\\Desktop\\HotelSunsetParadise\\HotelSunsetParadise\\Views\\Opciones\\Index.cshtml",
               "RelativeToolTip": "HotelSunsetParadise\\Views\\Opciones\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -66,14 +61,13 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\HotelSunsetParadise\\HotelSunsetParadise\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\INTEL\\Desktop\\HotelSunsetParadise\\HotelSunsetParadise\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "HotelSunsetParadise\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\HotelSunsetParadise\\HotelSunsetParadise\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\INTEL\\Desktop\\HotelSunsetParadise\\HotelSunsetParadise\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "HotelSunsetParadise\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-18T17:26:34.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T17:26:34.602Z"
             }
           ]
         },
