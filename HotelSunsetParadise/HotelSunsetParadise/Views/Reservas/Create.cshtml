@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "Nueva Reserva";
+}
+
+<div class="card shadow-lg p-4">
+    <h2 class="mb-4">Nueva Reserva</h2>
+
+    <form method="post">
+        <div class="mb-3">
+            <label class="form-label">Cliente</label>
+            <select name="clienteId" class="form-select" required>
+                <option value="" selected disabled>Seleccione un Cliente</option>
+                @foreach (var c in ViewBag.Clientes)
+                {
+                    <option value="@c.Id">@c.Nombre</option>
+                }
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Habitación</label>
+            <select name="habitacionId" class="form-select" required>
+                <option value="" selected disabled>Seleccione una habitación</option>
+                @foreach (var h in ViewBag.Habitaciones)
+                {
+                    <option value="@h.Id">N° @h.Numero - $@h.Precio</option>
+                }
+            </select>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label class="form-label">Fecha Entrada</label>
+                <input type="date" name="entrada" class="form-control" required />
+            </div>
+            <div class="col-md-6">
+                <label class="form-label">Fecha Salida</label>
+                <input type="date" name="salida" class="form-control" required />
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-between">
+            <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+            <button type="submit" class="btn btn-primary">Reservar</button>
+        </div>
+    </form>
+</div>

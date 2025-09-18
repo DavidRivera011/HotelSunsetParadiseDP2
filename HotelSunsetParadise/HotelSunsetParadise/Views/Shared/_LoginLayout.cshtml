@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - HotelSunsetParadise</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <style>
+        body {
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+
+        .navbar {
+            background-color: #1f1f1f !important;
+        }
+
+        .navbar-brand, .nav-link {
+            color: #e0e0e0 !important;
+        }
+
+            .navbar-brand:hover, .nav-link:hover {
+                color: #ffffff !important;
+            }
+
+        .card {
+            background-color: #1e1e1e;
+            border: 1px solid #333;
+            color: #e0e0e0;
+        }
+
+        .table {
+            color: #e0e0e0;
+        }
+
+            .table thead {
+                background-color: #2a2a2a;
+            }
+
+        .footer {
+            background-color: #1f1f1f;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <main role="main">
+        @RenderBody()
+    </main>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
