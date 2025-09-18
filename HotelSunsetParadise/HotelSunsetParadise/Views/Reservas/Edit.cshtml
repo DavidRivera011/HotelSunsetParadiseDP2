@@ -1,0 +1,42 @@
+﻿@model HotelSunsetParadise.Models.Reserva
+
+@{
+    ViewBag.Title = "Editar Reserva";
+}
+
+<div class="card shadow-lg p-4">
+    <h2 class="mb-4">Editar Reserva</h2>
+
+    <form asp-action="Edit" method="post">
+        <input type="hidden" asp-for="Id" />
+
+        <div class="mb-3">
+            <label asp-for="Cliente" class="form-label"></label>
+            <input asp-for="Cliente" class="form-control" required />
+            <span asp-validation-for="Cliente" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Habitacion" class="form-label"></label>
+            <input asp-for="Habitacion" class="form-control" type="text" required />
+            <span asp-validation-for="Habitacion" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="FechaEntrada" class="form-label"></label>
+            <input asp-for="FechaEntrada" class="form-control" type="date" pattern="[0-9]{8}" required />
+            <span asp-validation-for="FechaEntrada" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="FechaSalida" class="form-label"></label>
+            <input asp-for="FechaSalida" class="form-control" type="date" pattern="[0-9]{8}" required />
+            <span asp-validation-for="FechaSalida" class="text-danger"></span>
+        </div>
+
+        <div class="d-flex justify-content-between">
+            <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+            <button type="submit" class="btn btn-primary">Guardar cambios</button>
+        </div>
+    </form>
+</div>

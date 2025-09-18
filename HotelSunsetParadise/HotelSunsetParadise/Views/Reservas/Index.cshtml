@@ -1,0 +1,56 @@
+﻿@model IEnumerable<HotelSunsetParadise.Models.Reserva>
+@{
+    ViewBag.Title = "Reservas";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2 class="mb-0">Reservas</h2>
+    <a href="/Reservas/Create" class="btn btn-success">+ Agregar Reserva</a>
+</div>
+
+<div class="card shadow-lg">
+    <div class="card-body">
+        <table class="table table-dark table-hover align-middle text-center">
+            <thead class="table-secondary text-dark">
+                <tr>
+                    <th style="width: 30%;">Cliente</th>
+                    <th style="width: 20%;">Habitación</th>
+                    <th style="width: 20%;">Entrada</th>
+                    <th style="width: 20%;">Salida</th>
+                    <th style="width: 30%;">Total</th>
+                    <th style="width: 30%;">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.Any())
+                {
+                    @foreach (var r in Model)
+                    {
+                        <tr>
+                            <td><strong>@r.Cliente.Nombre</strong></td>
+                            <td>@r.Habitacion.Numero</td>
+                            <td>@r.FechaEntrada.ToShortDateString()</td>
+                            <td>@r.FechaSalida.ToShortDateString()</td>
+                            <td>@r.Total</td>
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@r.Id" class="btn btn-warning btn-sm me-2">Editar</a>
+
+                                <form asp-action="Delete" asp-route-id="@r.Id" method="post" style="display:inline;"
+                                      onsubmit="return confirm('¿Estás seguro de eliminar este cliente?');">
+                                    <button type="submit" class="btn btn-danger btn-sm">Eliminar</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="6" class="text-muted">No hay reservas registradas.</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
